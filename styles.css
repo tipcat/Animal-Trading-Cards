@@ -1,0 +1,56 @@
+/*
+David Pekerow
+IPND
+dpekerow@gmail.com
+Animal trading cards project
+styles.css
+*/
+
+body {
+  font-family: sans-serif;
+}
+
+h3 {
+  margin: 14px;
+  border: 1px;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  margin: 14px;
+}
+
+div {
+  border: 1px solid gray;
+}
+
+.emphasis {
+  font-style: italic;
+  font-family: serif;
+}
+
+/* remove bullets and indentation from list */
+ul {
+  list-style: none;
+  padding: 0px;
+  font-size: 10pt;
+}
+
+span {
+  font-weight: bold;
+}
+
+.outer_box {
+  background-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
+  width: 330px;
+}
+
+.inner_box {
+  width: 293px; /*smaller to account for padding */
+  margin: 14px;
+  padding: 3px;
+  margin-bottom: 14px;
+}
